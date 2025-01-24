@@ -15,24 +15,23 @@ Data-Driven Testing: Test scenarios are dynamically generated from a JSON file.
 
 Scalability: Adding new test cases is as simple as updating the test data file.
 
-##Prerequisites
+## Prerequisites
 
 Node.js (>= 16.x)
 
 Playwright (npm install playwright)
 
-##Setup
+## Setup
 
 #Clone the repository: 
 git clone <repository_url>
-cd <repository_name>
 
-#Install dependencies: npx install
+# Install dependencies: npx install
  
-#Ensure Playwright browsers are installed:  npx playwright install
+# Ensure Playwright browsers are installed:  npx playwright install
 
-##Usage
+## Usage
 
-#Run the test suite: npx playwright test
+# Run the test suite: npx playwright test
 
-#View the test results in the console or generate an HTML report:  npx playwright show-report
+# View the test results in the console or generate an HTML report:  npx playwright show-report
